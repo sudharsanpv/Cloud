@@ -11,7 +11,7 @@ resource "aws_instance" "server" {
 
 resource "aws_security_group" "Security" {
   name        = "Security"
-  description = "SSH"
+  description = "SSH testing"
 
 
   ingress {
